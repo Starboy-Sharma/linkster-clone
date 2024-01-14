@@ -1,0 +1,16 @@
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(auto, 3fr) minmax(400px, 2fr);
+}
+
+.cover-img {
+    background-image: url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user-icon {
+    background-color: #68D391;
+}
