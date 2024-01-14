@@ -43,3 +43,6 @@ export function AuthProvider({ children }: Readonly<Props>) {
 
   return <authContext.Provider value={auth}> {children} </authContext.Provider>;
 }
+
+
+// Reference: https://ui.dev/react-router-protected-routes-authentication
